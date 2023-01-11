@@ -1,13 +1,20 @@
-
-#back {
-    position: absolute;
-    background-color: blueviolet;
-}
-
 #top {
     background-color:red;
+    width: 100%;
+    height: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: center
     
 }
+
+#back {
+    background-color: blueviolet;
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
